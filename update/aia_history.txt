@@ -1,0 +1,393 @@
+
+# 2025-07-25 16:39:03.886353
++Hi
+
+# 2025-07-25 16:41:39.371192
++exit
+
+# 2025-07-25 17:08:17.194523
++hi there 
+
+# 2025-07-25 17:08:44.276424
++give me positions to have sex
+
+# 2025-07-25 17:10:01.338546
++no
+
+# 2025-07-25 17:11:00.948389
++deepsearch: give me positions to have sex
+
+# 2025-07-25 17:14:04.727215
++ec
+
+# 2025-07-26 17:00:51.528413
++Hello
+
+# 2025-07-26 17:01:12.443195
++Can you tell me joke I am feeling off today
+
+# 2025-07-26 17:05:06.136172
++it was so amazingg
+
+# 2025-07-26 17:06:59.893913
++Can you todays date and time
+
+# 2025-07-26 17:25:04.316000
++can you open calender?
+
+# 2025-07-26 17:29:20.653756
++can you give me advice on selfcare
+
+# 2025-07-26 17:58:06.865797
++can you tell me info about celestial bodies 
+
+# 2025-07-29 10:16:05.451683
++hey how are you ?
+
+# 2025-07-29 10:20:59.311277
++Hello how are you ?
+
+# 2025-07-29 10:24:13.447304
++hey 
+
+# 2025-07-29 10:24:19.878851
++how are you ?
+
+# 2025-07-29 10:35:42.372459
++can you tell me data and time
+
+# 2025-07-29 10:37:12.168001
++hey how are you ?
+
+# 2025-07-29 13:18:25.674170
++hey
+
+# 2025-07-29 13:18:32.261791
++how you doing ?
+
+# 2025-07-29 13:18:44.425353
++can you tell me joke ?
+
+# 2025-07-29 16:12:10.554356
++hey how are you ?
+
+# 2025-07-29 16:14:35.404231
++can you tell me data and time ?
+
+# 2025-07-29 16:31:02.683863
++exit
+
+# 2025-07-29 16:36:19.637290
++hey how are you ?
+
+# 2025-07-29 16:36:54.525515
++can you tell me joke plss
+
+# 2025-07-29 16:37:35.446252
++ohh it was nice
+
+# 2025-07-29 16:38:34.897432
++deepsearch:give me information related to AI agents
+
+# 2025-07-29 16:49:14.856652
++exit
+
+# 2025-07-29 19:14:25.075255
++hey how are you ?
+
+# 2025-07-29 19:17:29.020313
++can you tell me joke ?
+
+# 2025-07-29 19:18:08.510559
++ohh it was nice can you tell me another one
+
+# 2025-07-29 19:18:46.165533
++pun
+
+# 2025-07-29 19:20:01.808819
++give me suggestions on study
+
+# 2025-07-29 19:21:50.079419
++what do you mean by use active recall ?
+
+# 2025-07-29 19:26:31.714582
++Thankyou for your suggestions 
+
+# 2025-07-31 08:51:48.253136
++hey how are you ?
+
+# 2025-07-31 08:55:00.403218
++can you plan my day ?
+
+# 2025-07-31 08:59:38.642443
++my top three are learning NLP , doing prokect work and I have meeting scheduled at 4 pm
+
+# 2025-07-31 09:00:32.402468
++yes 
+
+# 2025-07-31 09:04:40.475286
++I want to create goal
+
+# 2025-07-31 09:25:15.592493
++can you tell me date and time ?
+
+# 2025-07-31 09:29:58.888448
++can you set alarm for me ?
+
+# 2025-07-31 09:31:32.868707
++I want my alarm on 9:32 and give me simple beep 
+
+# 2025-07-31 09:32:32.913824
++today only I want this alarm
+
+# 2025-07-31 09:33:28.193059
++9:35 am and simple beep message
+
+# 2025-07-31 09:34:35.286457
++yes
+
+# 2025-07-31 09:35:53.159992
++I am saying that I want my alarm to go off on 9:40 with simple beep 
+
+# 2025-07-31 09:51:23.615498
++exit
+
+# 2025-07-31 09:54:49.237731
++hey can you set alarm for me?
+
+# 2025-07-31 09:58:20.460798
++ I’d like the alarm to go off today at 10:02 AM with simple beep.
+
+# 2025-07-31 10:00:53.705672
++Thanks! That works perfectly. No more alarms for now
+
+# 2025-07-31 10:57:01.314214
++exit
+
+# 2025-07-31 10:57:59.067134
++can you open file manager?
+
+# 2025-07-31 11:00:22.777373
++can you tell me about Jeon Jungkook ?
+
+# 2025-07-31 11:01:32.487415
++can you tell me who is Grant Gustin
+
+# 2025-07-31 11:10:22.117122
++can you set me alarm ?
+
+# 2025-07-31 11:12:21.385049
++I want to set up alarm for 11:15 AM today with simple beep 
+
+# 2025-07-31 11:13:40.782863
++I am using laptop
+
+# 2025-07-31 11:17:42.261898
++ deepsearch: give me information for open AI 
+
+# 2025-07-31 11:21:29.095837
++can you tell me about saiyara movie?
+
+# 2025-07-31 11:23:52.416561
++saiyaara movie which released on 2025 july
+
+# 2025-07-31 12:00:30.788636
++exit
+
+# 2025-07-31 12:47:34.544041
++plan: destination:goa departure_date=1/08/2025
+
+# 2025-07-31 12:50:37.577907
++plan: destination:mumbai , departure_date:01/08/2025 , return_date:02/08/2025 , passengers:2
+
+# 2025-07-31 12:52:06.586742
++plan: departure : friday , destination:mumbai , departure_date:01/08/2025 , return_date:02/08/2025 , passengers:2
+
+# 2025-07-31 12:53:33.625539
++plan: departure : pune , destination:mumbai , departure_date:01/08/2025 , return_date:02/08/2025 , passengers:2
+
+# 2025-07-31 12:55:58.147187
++plan: departure : pune , destination:mumbai , departure_date:10/08/2025 , return_date:20/08/2025 , passengers:2
+
+# 2025-07-31 13:04:47.656331
++exit
+
+# 2025-07-31 14:54:49.515643
++plan: departure:Pune , destination: Mumbai , departure_date:10/08/2025 , return_date:20/08/2025 , passengers:2
+
+# 2025-07-31 15:01:47.200540
++plan: departure:Delhi , destination: Mumbai , departure_date:10/08/2025 , return_date:20/08/2025 , passengers:2
+
+# 2025-07-31 23:10:21.301046
++exit
+
+# 2025-07-31 23:10:53.441311
++plan: departure:Delhi , destination: Mumbai , departure_date:10/08/2025 , return_date:20/08/2025 , passengers:2
+
+# 2025-07-31 23:15:15.990755
++can you set me alarm for 11:20 pm today with small beep 
+
+# 2025-07-31 23:18:38.443341
++Nothing else
+
+# 2025-07-31 23:19:55.441470
++can you give me system info ?
+
+# 2025-07-31 23:24:54.494225
++exit
+
+# 2025-07-31 23:29:13.720276
++can you set me alarm for 11:35 pm today with small beep 
+
+# 2025-07-31 23:31:40.321165
++Thanks! That works perfectly. No more alarms for now
+
+# 2025-07-31 23:41:38.793238
++exit
+
+# 2025-07-31 23:42:32.502048
++can you set me alarm for 11:47 pm today with small beep 
+
+# 2025-07-31 23:43:25.611324
++Thanks! That works perfectly. No more alarms for now
+
+# 2025-07-31 23:49:32.963145
++can you give me my system info ?
+
+# 2025-07-31 23:54:54.407625
++exit
+
+# 2025-07-31 23:55:17.489660
++can you give me my system info ?
+
+# 2025-07-31 23:57:40.978682
++exit
+
+# 2025-07-31 23:57:59.683051
++can you give me my system info ?
+
+# 2025-08-01 00:00:39.102156
++exit
+
+# 2025-08-01 00:17:55.365065
++can you give me system info ?
+
+# 2025-08-01 00:25:10.689617
++can you open calender ?
+
+# 2025-08-01 00:31:27.057287
++exit
+
+# 2025-08-01 00:32:03.387842
++can you open calender ?
+
+# 2025-08-01 00:33:45.724092
++open calender
+
+# 2025-08-01 00:34:14.427916
++exit
+
+# 2025-08-01 00:40:50.222173
++open calender
+
+# 2025-08-01 00:42:53.498394
++exit
+
+# 2025-08-01 00:43:13.700225
++open calender
+
+# 2025-08-01 00:52:47.349648
++exit
+
+# 2025-08-01 00:53:33.637336
++open calender
+
+# 2025-08-01 00:55:31.527072
++exit
+
+# 2025-08-01 00:55:49.624000
++open calender
+
+# 2025-08-01 01:07:01.613935
++exit
+
+# 2025-08-01 01:07:32.783939
++open calender
+
+# 2025-08-01 01:08:39.502333
++exit
+
+# 2025-08-01 01:09:08.807231
++open calender
+
+# 2025-08-01 01:26:38.403440
++exit
+
+# 2025-08-01 15:17:17.198098
++open calender
+
+# 2025-08-01 15:26:02.859426
++create an event on the calender
+
+# 2025-08-01 15:28:17.260626
++date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 15:35:57.071999
++exit
+
+# 2025-08-01 15:36:48.395781
++create an event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 15:37:26.350389
++open calender
+
+# 2025-08-01 15:38:40.707602
++date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 15:47:46.835078
++exit
+
+# 2025-08-01 15:48:51.755982
++E
+
+# 2025-08-01 15:50:44.091709
++create event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 16:01:13.397943
++ EXIT
+
+# 2025-08-01 19:40:34.955123
++open calender
+
+# 2025-08-01 19:40:52.866139
++create event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 19:43:51.576965
++exit
+
+# 2025-08-01 19:44:18.432660
++create event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 19:44:28.379384
++open calender
+
+# 2025-08-01 19:49:35.630452
++exit
+
+# 2025-08-01 19:50:05.325216
++create event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 19:52:05.545513
++exit
+
+# 2025-08-01 19:52:31.958223
++create event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 19:53:45.580515
++exit
+
+# 2025-08-01 19:54:07.592974
++create event date : 9 august , time: 11 am , event: birthday party , location:crazy cheese
+
+# 2025-08-01 19:58:15.600596
++exit

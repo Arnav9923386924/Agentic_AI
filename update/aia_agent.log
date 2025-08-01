@@ -1,0 +1,562 @@
+2025-07-25 16:38:18,663 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-25 16:38:20,722 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D8F5CDB290>
+2025-07-25 16:38:20,723 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 16:38:20,742 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 16:38:20,742 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 16:38:20,743 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 16:38:20,743 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 16:38:43,492 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 25 Jul 2025 11:08:43 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-25 16:38:43,493 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-25 16:38:43,493 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-25 16:38:51,574 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-25 16:38:51,574 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 16:38:51,574 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 16:38:51,575 INFO:__main__:LLM connection successful
+2025-07-25 16:38:51,656 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 16:39:04,317 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 16:41:36,722 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 17:07:35,985 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-25 17:07:38,030 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000233A2FCC210>
+2025-07-25 17:07:38,030 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:07:38,032 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:07:38,032 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:07:38,032 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:07:38,032 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:07:53,978 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 25 Jul 2025 11:37:53 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-25 17:07:53,979 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-25 17:07:53,979 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-25 17:08:02,523 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-25 17:08:02,523 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:08:02,523 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:08:02,524 INFO:__main__:LLM connection successful
+2025-07-25 17:08:02,707 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 17:08:17,599 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 17:08:44,667 DEBUG:httpcore.connection:close.started
+2025-07-25 17:08:44,669 DEBUG:httpcore.connection:close.complete
+2025-07-25 17:08:44,669 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-25 17:08:46,716 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000233A5246B50>
+2025-07-25 17:08:46,717 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:08:46,717 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:08:46,717 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:08:46,717 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:08:46,717 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:09:42,822 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 25 Jul 2025 11:39:42 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-25 17:09:42,823 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-25 17:09:42,823 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-25 17:09:51,405 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-25 17:09:51,405 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:09:51,405 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:09:52,798 DEBUG:__main__:No learning indicators found in input: give me positions to have sex
+2025-07-25 17:09:52,799 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 17:10:01,356 DEBUG:httpcore.connection:close.started
+2025-07-25 17:10:01,356 DEBUG:httpcore.connection:close.complete
+2025-07-25 17:10:01,357 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-25 17:10:03,408 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000233A5245AD0>
+2025-07-25 17:10:03,408 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:10:03,409 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:10:03,409 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:10:03,410 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:10:03,410 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:10:45,922 DEBUG:httpcore.http11:receive_response_headers.failed exception=KeyboardInterrupt()
+2025-07-25 17:10:45,923 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:10:45,923 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:10:45,927 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 17:11:01,023 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-25 17:11:03,065 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000233A52BD150>
+2025-07-25 17:11:03,065 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:11:03,066 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:11:03,066 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:11:03,066 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:11:03,066 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:13:03,089 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 25 Jul 2025 11:43:03 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-25 17:13:03,090 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-25 17:13:03,091 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-25 17:13:10,894 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-25 17:13:10,894 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:13:10,894 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:13:10,905 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:13:10,905 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:13:10,906 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:13:10,906 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:13:10,906 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:13:21,431 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 25 Jul 2025 11:43:21 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-25 17:13:21,431 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-25 17:13:21,432 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-25 17:13:31,442 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-25 17:13:31,442 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:13:31,442 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:13:31,451 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:13:31,452 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:13:31,452 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:13:31,453 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:13:31,453 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:13:43,688 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 25 Jul 2025 11:43:43 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-25 17:13:43,688 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-25 17:13:43,689 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-25 17:13:53,050 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-25 17:13:53,050 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:13:53,050 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:13:53,058 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:13:53,059 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:13:53,059 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:13:53,059 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:13:53,059 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-25 17:14:04,712 DEBUG:httpcore.http11:receive_response_headers.failed exception=KeyboardInterrupt()
+2025-07-25 17:14:04,712 DEBUG:httpcore.http11:response_closed.started
+2025-07-25 17:14:04,712 DEBUG:httpcore.http11:response_closed.complete
+2025-07-25 17:14:04,716 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-25 17:14:04,764 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-25 17:14:06,818 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000233A52B9D90>
+2025-07-25 17:14:06,819 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-25 17:14:06,819 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-25 17:14:06,819 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-25 17:14:06,819 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-25 17:14:06,820 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:00:02,684 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:00:04,731 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27B401ED0>
+2025-07-26 17:00:04,731 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:00:04,731 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:00:04,731 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:00:04,731 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:00:04,731 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:00:18,965 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:30:18 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:00:18,967 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:00:18,967 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:00:27,107 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:00:27,107 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:00:27,108 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:00:27,110 INFO:__main__:LLM connection successful
+2025-07-26 17:00:27,189 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:00:51,944 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:01:12,478 DEBUG:httpcore.connection:close.started
+2025-07-26 17:01:12,478 DEBUG:httpcore.connection:close.complete
+2025-07-26 17:01:12,478 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:01:14,515 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CC6FD50>
+2025-07-26 17:01:14,516 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:01:14,517 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:01:14,517 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:01:14,518 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:01:14,518 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:01:48,343 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:31:48 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:01:48,343 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:01:48,343 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:02:09,088 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:02:09,089 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:02:09,089 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:02:12,220 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:02:12,220 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:02:12,220 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:02:12,220 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:02:12,220 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:02:38,586 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:32:38 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:02:38,586 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:02:38,586 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:04:02,218 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:04:02,218 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:04:02,218 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:04:02,218 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:05:06,152 DEBUG:httpcore.connection:close.started
+2025-07-26 17:05:06,152 DEBUG:httpcore.connection:close.complete
+2025-07-26 17:05:06,152 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:05:08,190 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CC817D0>
+2025-07-26 17:05:08,208 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:05:08,209 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:05:08,209 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:05:08,209 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:05:08,209 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:05:44,730 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:35:44 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:05:44,731 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:05:44,731 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:06:00,587 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:06:00,587 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:06:00,587 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:06:02,831 DEBUG:__main__:No learning indicators found in input: it was so amazingg
+2025-07-26 17:06:02,832 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:06:59,931 DEBUG:httpcore.connection:close.started
+2025-07-26 17:06:59,932 DEBUG:httpcore.connection:close.complete
+2025-07-26 17:06:59,932 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:07:01,966 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CBE1FD0>
+2025-07-26 17:07:01,966 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:07:01,968 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:07:01,968 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:07:01,968 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:07:01,968 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:07:28,643 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:37:28 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:07:28,643 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:07:28,644 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:07:37,832 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:07:37,833 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:07:37,833 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:07:39,163 DEBUG:__main__:No learning indicators found in input: Can you todays date and time
+2025-07-26 17:07:39,164 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:25:04,348 DEBUG:httpcore.connection:close.started
+2025-07-26 17:25:04,348 DEBUG:httpcore.connection:close.complete
+2025-07-26 17:25:04,349 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:25:06,383 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CC8E250>
+2025-07-26 17:25:06,383 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:25:06,384 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:25:06,384 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:25:06,385 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:25:06,385 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:25:50,438 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:55:50 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:25:50,439 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:25:50,442 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:26:35,334 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:26:35,334 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:26:35,334 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:26:42,308 DEBUG:__main__:No learning indicators found in input: can you open calender?
+2025-07-26 17:26:42,309 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:29:20,677 DEBUG:httpcore.connection:close.started
+2025-07-26 17:29:20,678 DEBUG:httpcore.connection:close.complete
+2025-07-26 17:29:20,679 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:29:22,721 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CC863D0>
+2025-07-26 17:29:22,722 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:29:22,722 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:29:22,722 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:29:22,722 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:29:22,722 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:29:47,889 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 11:59:47 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:29:47,889 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:29:47,890 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 17:31:05,337 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 17:31:05,337 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 17:31:05,337 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 17:31:17,427 DEBUG:__main__:No learning indicators found in input: can you give me advice on selfcare
+2025-07-26 17:31:17,428 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 17:58:06,890 DEBUG:httpcore.connection:close.started
+2025-07-26 17:58:06,890 DEBUG:httpcore.connection:close.complete
+2025-07-26 17:58:06,890 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 17:58:08,932 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CC8D2D0>
+2025-07-26 17:58:08,932 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 17:58:08,932 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 17:58:08,933 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 17:58:08,933 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 17:58:08,933 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 17:58:53,904 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 12:28:53 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 17:58:53,914 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 17:58:53,921 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:00:30,918 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:00:30,921 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:00:30,921 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:00:45,319 DEBUG:__main__:No learning indicators found in input: can you tell me info about celestial bodies
+2025-07-26 18:00:45,323 DEBUG:asyncio:Using proactor: IocpProactor
+2025-07-26 18:28:27,285 DEBUG:httpcore.connection:close.started
+2025-07-26 18:28:27,286 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:28:27,287 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:28:29,331 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCDC90>
+2025-07-26 18:28:29,332 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:28:29,333 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:28:29,333 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:28:29,333 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:28:29,333 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:29:36,414 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 12:59:36 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:29:36,418 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:29:36,421 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:30:54,901 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:30:54,901 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:30:54,901 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:30:54,908 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:31:54,940 DEBUG:httpcore.connection:close.started
+2025-07-26 18:31:54,941 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:31:54,941 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:31:56,999 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCFC10>
+2025-07-26 18:31:56,999 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:31:57,000 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:31:57,000 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:31:57,000 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:31:57,000 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:31:57,705 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:01:57 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:31:57,705 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:31:57,706 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:33:08,807 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:33:08,807 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:33:08,807 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:33:08,809 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:34:08,813 DEBUG:httpcore.connection:close.started
+2025-07-26 18:34:08,813 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:34:08,814 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:34:10,865 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCE0D0>
+2025-07-26 18:34:10,866 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:34:10,867 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:34:10,867 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:34:10,868 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:34:10,868 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:34:11,624 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:04:11 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:34:11,625 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:34:11,626 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:35:33,748 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:35:33,748 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:35:33,748 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:35:33,749 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:36:33,759 DEBUG:httpcore.connection:close.started
+2025-07-26 18:36:33,760 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:36:33,760 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:36:35,792 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCCC10>
+2025-07-26 18:36:35,793 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:36:35,793 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:36:35,794 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:36:35,794 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:36:35,794 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:36:36,534 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:06:36 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:36:36,535 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:36:36,535 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:37:49,684 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:37:49,684 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:37:49,684 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:37:49,685 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:38:49,713 DEBUG:httpcore.connection:close.started
+2025-07-26 18:38:49,714 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:38:49,714 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:38:51,768 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CBE37D0>
+2025-07-26 18:38:51,768 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:38:51,774 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:38:51,775 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:38:51,777 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:38:51,777 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:38:52,394 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:08:52 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:38:52,395 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:38:52,395 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:40:14,027 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:40:14,028 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:40:14,028 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:40:14,028 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:41:14,050 DEBUG:httpcore.connection:close.started
+2025-07-26 18:41:14,052 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:41:14,052 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:41:16,099 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCFCD0>
+2025-07-26 18:41:16,100 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:41:16,101 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:41:16,101 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:41:16,101 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:41:16,102 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:41:16,742 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:11:16 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:41:16,743 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:41:16,744 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:42:36,794 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:42:36,794 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:42:36,794 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:42:36,794 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:43:36,819 DEBUG:httpcore.connection:close.started
+2025-07-26 18:43:36,820 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:43:36,820 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:43:38,873 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCC8E10>
+2025-07-26 18:43:38,874 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:43:38,875 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:43:38,876 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:43:38,876 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:43:38,877 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:43:39,671 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:13:39 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:43:39,671 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:43:39,672 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:44:54,367 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:44:54,367 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:44:54,367 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:44:54,368 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:45:54,375 DEBUG:httpcore.connection:close.started
+2025-07-26 18:45:54,375 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:45:54,375 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:45:56,418 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCD750>
+2025-07-26 18:45:56,418 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:45:56,418 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:45:56,418 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:45:56,419 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:45:56,419 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:45:57,030 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:15:57 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:45:57,030 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:45:57,030 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:47:14,348 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:47:14,348 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:47:14,348 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:47:14,348 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:48:14,373 DEBUG:httpcore.connection:close.started
+2025-07-26 18:48:14,373 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:48:14,374 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:48:16,416 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27BBB96D0>
+2025-07-26 18:48:16,418 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:48:16,419 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:48:16,419 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:48:16,422 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:48:16,422 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:48:17,030 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:18:17 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:48:17,030 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:48:17,030 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:50:30,026 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:50:30,026 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:50:30,026 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:50:30,026 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:51:30,029 DEBUG:httpcore.connection:close.started
+2025-07-26 18:51:30,029 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:51:30,029 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:51:32,076 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCEE90>
+2025-07-26 18:51:32,077 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:51:32,078 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:51:32,078 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:51:32,078 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:51:32,079 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:51:32,721 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:21:32 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:51:32,721 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:51:32,721 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:52:50,645 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:52:50,645 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:52:50,645 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:52:50,645 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:53:50,649 DEBUG:httpcore.connection:close.started
+2025-07-26 18:53:50,649 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:53:50,649 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:53:52,700 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCC8F10>
+2025-07-26 18:53:52,701 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:53:52,701 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:53:52,701 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:53:52,702 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:53:52,702 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:53:53,300 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:23:53 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:53:53,301 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:53:53,301 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:55:03,740 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:55:03,740 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:55:03,740 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:55:03,741 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:56:03,749 DEBUG:httpcore.connection:close.started
+2025-07-26 18:56:03,750 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:56:03,750 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:56:05,802 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCA410>
+2025-07-26 18:56:05,803 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:56:05,803 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:56:05,803 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:56:05,803 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:56:05,803 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:56:06,364 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:26:06 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:56:06,364 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:56:06,365 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:57:26,068 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:57:26,068 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:57:26,068 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:57:26,069 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 18:58:26,072 DEBUG:httpcore.connection:close.started
+2025-07-26 18:58:26,072 DEBUG:httpcore.connection:close.complete
+2025-07-26 18:58:26,072 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 18:58:28,116 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCBF90>
+2025-07-26 18:58:28,137 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 18:58:28,138 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 18:58:28,138 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 18:58:28,138 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 18:58:28,138 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 18:58:28,839 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:28:28 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 18:58:28,840 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 18:58:28,840 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 18:59:49,090 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 18:59:49,090 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 18:59:49,090 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 18:59:49,090 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 19:00:49,095 DEBUG:httpcore.connection:close.started
+2025-07-26 19:00:49,096 DEBUG:httpcore.connection:close.complete
+2025-07-26 19:00:49,096 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 19:00:51,158 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCCA2D0>
+2025-07-26 19:00:51,158 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 19:00:51,158 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 19:00:51,158 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 19:00:51,158 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 19:00:51,158 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 19:00:51,765 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:30:51 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 19:00:51,765 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 19:00:51,765 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 19:02:08,652 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 19:02:08,653 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 19:02:08,653 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 19:02:08,653 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 19:03:08,655 DEBUG:httpcore.connection:close.started
+2025-07-26 19:03:08,655 DEBUG:httpcore.connection:close.complete
+2025-07-26 19:03:08,673 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 19:03:10,726 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCD8F90>
+2025-07-26 19:03:10,726 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 19:03:10,727 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 19:03:10,727 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 19:03:10,727 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 19:03:10,728 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 19:03:11,344 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:33:11 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 19:03:11,344 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 19:03:11,345 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 19:04:30,728 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 19:04:30,728 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 19:04:30,728 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 19:04:30,728 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 19:05:30,734 DEBUG:httpcore.connection:close.started
+2025-07-26 19:05:30,734 DEBUG:httpcore.connection:close.complete
+2025-07-26 19:05:30,735 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 19:05:32,777 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCD9810>
+2025-07-26 19:05:32,796 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 19:05:32,796 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 19:05:32,796 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 19:05:32,797 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 19:05:32,797 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 19:05:33,463 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:35:33 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 19:05:33,464 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 19:05:33,464 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 19:07:29,767 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 19:07:29,767 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 19:07:29,767 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 19:07:29,767 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 19:08:29,774 DEBUG:httpcore.connection:close.started
+2025-07-26 19:08:29,775 DEBUG:httpcore.connection:close.complete
+2025-07-26 19:08:29,775 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 19:08:31,830 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCDB790>
+2025-07-26 19:08:31,831 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 19:08:31,832 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 19:08:31,832 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 19:08:31,833 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 19:08:31,834 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 19:08:32,460 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:38:32 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 19:08:32,460 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 19:08:32,460 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 19:09:53,463 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 19:09:53,463 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 19:09:53,463 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 19:09:53,463 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 19:10:53,467 DEBUG:httpcore.connection:close.started
+2025-07-26 19:10:53,467 DEBUG:httpcore.connection:close.complete
+2025-07-26 19:10:53,467 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 19:10:55,506 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCDA250>
+2025-07-26 19:10:55,507 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 19:10:55,507 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 19:10:55,507 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 19:10:55,507 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 19:10:55,508 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 19:10:56,179 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 13:40:56 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 19:10:56,179 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 19:10:56,179 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 19:12:14,727 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 19:12:14,727 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 19:12:14,727 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 19:12:14,727 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 19:48:49,712 DEBUG:httpcore.connection:close.started
+2025-07-26 19:48:49,713 DEBUG:httpcore.connection:close.complete
+2025-07-26 19:48:49,713 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 19:48:52,862 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCDBF90>
+2025-07-26 19:48:52,862 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 19:48:52,863 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 19:48:52,863 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 19:48:52,863 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 19:48:52,863 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 20:38:54,213 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 26 Jul 2025 15:08:54 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-07-26 20:38:54,215 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-07-26 20:38:54,216 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 20:40:20,797 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 20:40:20,797 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 20:40:20,797 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 20:40:20,798 ERROR:__main__:Proactive insight generation error: Expecting value: line 1 column 1 (char 0)
+2025-07-26 21:10:55,496 DEBUG:httpcore.connection:close.started
+2025-07-26 21:10:55,497 DEBUG:httpcore.connection:close.complete
+2025-07-26 21:10:55,497 DEBUG:httpcore.connection:connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2025-07-26 21:10:57,554 DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A27CCD8590>
+2025-07-26 21:10:57,554 DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+2025-07-26 21:10:57,555 DEBUG:httpcore.http11:send_request_headers.complete
+2025-07-26 21:10:57,555 DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+2025-07-26 21:10:57,555 DEBUG:httpcore.http11:send_request_body.complete
+2025-07-26 21:10:57,555 DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+2025-07-26 22:35:24,710 DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 500, b'Internal Server Error', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sat, 26 Jul 2025 17:05:24 GMT'), (b'Content-Length', b'74')])
+2025-07-26 22:35:24,711 INFO:httpx:HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 500 Internal Server Error"
+2025-07-26 22:35:24,717 DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+2025-07-26 22:35:24,717 DEBUG:httpcore.http11:receive_response_body.complete
+2025-07-26 22:35:24,717 DEBUG:httpcore.http11:response_closed.started
+2025-07-26 22:35:24,717 DEBUG:httpcore.http11:response_closed.complete
+2025-07-26 22:35:24,745 ERROR:__main__:Proactive insight generation error: timed out waiting for llama runner to start - progress 0.06 -  (status code: 500)
